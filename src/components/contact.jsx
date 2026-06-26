@@ -3,7 +3,7 @@ function Contact() {
     {
       icon: "📞",
       title: "Call Us",
-      text: "+91 98737 73049",
+      text: "+91 98737 73049 , +91 9999803676",
     },
     {
       icon: "💬",

@@ -58,27 +58,16 @@ function Products({ selectedCategory, setSelectedProduct, setPage }) {
             <img
               src={item.imgs[0]}
               alt={item.name}
-              className="w-full h-60 object-cover"
+              className="w-full h-100 object-contain"
             />
 
             <div className="p-5">
-              <div
-                className="inline-block px-3 py-1 rounded-full text-xs font-semibold mb-3"
-                style={{ background: C.gold }}
-              >
-                {item.badge}
-              </div>
-
               <h3
                 className="text-xl md:text-2xl mb-2 font-semibold"
                 style={{ color: C.walnut }}
               >
                 {item.name}
               </h3>
-
-              <p className="mb-3" style={{ color: "#777" }}>
-                {item.material}
-              </p>
 
               <div className="inline-block mt-2 px-4 py-2 rounded-full bg-[#f5efe8] text-[#6b3f1d] font-medium text-sm">
                 Contact For Price

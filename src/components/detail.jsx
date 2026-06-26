@@ -5,7 +5,7 @@ function Detail({ selectedProduct, setPage }) {
 
   return (
     <section
-      className="px-5 md:px-10 lg:px-16 py-10 md:py-16 min-h-screen"
+      className="px-5 md:px-10 lg:px-16 py-10 md:py-16"
       style={{ background: "white" }}
     >
       {/* Back Button */}
@@ -25,7 +25,7 @@ function Detail({ selectedProduct, setPage }) {
           <img
             src={selectedProduct.imgs[0]}
             alt={selectedProduct.name}
-            className="w-full max-w-xl h-72 md:h-96 rounded-2xl mb-5 object-cover"
+            className="w-full h-auto object-contain"
             loading="lazy"
           />
 
@@ -36,7 +36,7 @@ function Detail({ selectedProduct, setPage }) {
                 key={index}
                 src={img}
                 alt="preview"
-                className="w-full h-24 md:h-32 object-cover rounded-xl cursor-pointer transition duration-300 hover:scale-105"
+                className="w-full h-32 md:h-40 object-contain rounded-xl cursor-pointer transition duration-300 hover:scale-105"
                 loading="lazy"
               />
             ))}
@@ -45,14 +45,6 @@ function Detail({ selectedProduct, setPage }) {
 
         {/* Right Details */}
         <div>
-          {/* Badge */}
-          <div
-            className="inline-block px-4 py-2 rounded-full mb-4 font-semibold text-sm"
-            style={{ background: C.gold }}
-          >
-            {selectedProduct.badge}
-          </div>
-
           {/* Product Name */}
           <h1
             className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4"

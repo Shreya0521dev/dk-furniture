@@ -130,21 +130,28 @@ function About() {
               DK Furniture blends traditional craftsmanship with modern design.
               Premium handcrafted furniture designed to last for generations.
               Using sustainably sourced hardwoods, premium upholstery and expert
-              finishing, we have delivered timeless furniture to 5000+ homes.
+              finishing.
+              <br />
+              DK Furniture is a trusted name in premium handcrafted furniture,
+              proudly serving customers with quality craftsmanship and timeless
+              designs. <br />
+              We specialise in creating luxury sofas, premium beds, designer
+              chairs, wardrobes, dining sets and custom furniture pieces built
+              to match modern lifestyle and comfort.
+              <br />
+              Over the years, hundreds of families and businesses have trusted
+              us for durable furniture, premium finishing and honest
+              workmanship. Every piece is carefully built using quality wood,
+              premium materials and expert craftsmanship to ensure long-lasting
+              durability for generations.
             </p>
 
             <div className="bg-white/5 rounded-xl p-5">
-              <p className="text-[#c8a96e] mb-3 uppercase text-sm tracking-[2px]">
-                Products
+              <p className="text-[#c8a96e] text-sm tracking-[2px]">
+                Our business is a legally registered furniture firm, operating
+                with verified trade certification and maintaining professional
+                standards in every project we deliver.
               </p>
-
-              <ul className="text-white space-y-2 text-sm md:text-base">
-                <li>• Premium Chairs</li>
-                <li>• Designer Sofas</li>
-                <li>• Luxury Tables</li>
-                <li>• Wardrobes</li>
-                <li>• Custom Furniture</li>
-              </ul>
             </div>
           </div>
         </div>

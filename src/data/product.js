@@ -1,14 +1,14 @@
 export const CATEGORIES = [
-  { id: "chairs", name: "Chairs", count: 12,
-    img: "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=400&q=80" },
+  { id: "chairs", name: "Chairs",
+    img: "/royalchair.jpeg" },
   { id: "beds", name: "Beds", count: 8,
-    img: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&q=80" },
+    img: "/bed.jpeg" },
   { id: "sofas", name: "Sofas", count: 10,
     img: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&q=80" },
   { id: "tables", name: "Tables", count: 15,
     img: "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?w=400&q=80" },
   { id: "wardrobes", name: "Wardrobes", count: 6,
-    img: "https://images.unsplash.com/photo-1558997519-83ea9252eae8?w=400&q=80" },
+    img:  "/shoerack.jpeg" },
 ];
 
 export const PRODUCTS = {
@@ -19,160 +19,303 @@ export const PRODUCTS = {
       price: "₹28,500",
       material: "Teak & Velvet",
       badge: "Bestseller",
-      desc: "The Maharaja Wingback is a statement piece that commands attention. Hand-carved teak frame with curved wingback silhouette, upholstered in deep jewel-toned velvet with solid brass nail-head trim.",
+      desc: "Designed with an elegant high-back structure and soft cushioned seating, this chair provides excellent comfort while adding a sophisticated touch to living spaces, lounges, and custom interior setups.",
       features: [
-        "Hand-carved solid teak frame",
-        "Premium velvet upholstery in 6 colour options",
-        "Solid brass nail-head trim",
-        "High-density 40D foam cushioning",
-        "Kiln-dried wood for lasting stability",
-        "Dimensions: 80W × 85D × 115H cm"
+         "High back ergonomic support",
+    "Soft cushioned seating",
+    "Strong and durable frame",
+    "Stylish armrest design",
+    "Ideal for lounge and luxury seating"
       ],
+      
       imgs: [
-        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=800&q=80",
-        "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800&q=80",
-        "https://images.unsplash.com/photo-1581539250439-c96689b516dd?w=800&q=80",
-        "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&q=80"
+        "/chair.jpeg",
+        "/chair2.jpeg",
+        "/chair3.jpeg"
       ]
     },
 
     {
       id: "c2",
-      name: "Nordic Pine Rocker",
-      price: "₹18,200",
+      name: "Modern Wooden Lounge Chair",
+     
       material: "Solid Pine",
-      badge: "New Arrival",
-      desc: "Scandinavian simplicity meets Indian craftsmanship. Carved from solid pine with a natural matte oil finish and ergonomic lumbar support.",
+      desc: "Designed with smooth wooden finishing and comfortable seating support, this chair combines durability with a stylish look, making it a great fit for contemporary interior spaces.",
       features: [
         "Solid pine construction",
         "Natural matte oil finish",
         "Ergonomic lumbar support curve",
-        "Smooth walnut-stained rockers",
-        "Seat: 52W × 48D cm",
-        "Weight capacity: 120 kg"
+        
       ],
       imgs: [
-        "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800&q=80",
-        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=800&q=80",
-        "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&q=80",
-        "https://images.unsplash.com/photo-1581539250439-c96689b516dd?w=800&q=80"
+        "/Loungechair.jpeg",
+        
       ]
     },
 
     {
       id: "c3",
-      name: "Studio Accent Chair",
-      price: "₹14,800",
+      name: "Royal Cane Accent Chair",
       material: "Sheesham & Linen",
-      badge: "Popular",
-      desc: "Understated elegance for the contemporary home. Mid-century silhouette with sheesham hardwood frame and natural oatmeal linen upholstery.",
+      desc: "Elegant handcrafted premium wooden chair featuring a luxurious blue upholstered seat with a finely woven natural cane backrest. Designed with classic detailing, smooth polished wood finish, and superior comfort — perfect for living rooms, offices, lounges, and premium interior spaces.",
       features: [
-        "Sheesham (Indian rosewood) frame",
-        "Natural oatmeal linen upholstery",
-        "Tapered solid wood legs with felt pads",
-        "Removable, washable seat cushion",
-        "Low profile: 75H cm total",
-        "Available in 4 fabric colours"
+        "Premium Solid Wood Frame",
+  "Handwoven Natural Cane Backrest",
+  "High Density Comfortable Cushion",
+  "Luxury Polished Finish",
+  "Strong & Durable Build Quality",
+  "Suitable for Home & Office Interiors"
       ],
       imgs: [
-        "https://images.unsplash.com/photo-1581539250439-c96689b516dd?w=800&q=80",
-        "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800&q=80",
-        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=800&q=80",
-        "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&q=80"
+        "/Canechair.jpeg",
+        
       ]
     },
 
     {
       id: "c4",
-      name: "Executive Lounge Chair",
-      price: "₹42,000",
+      name: "Elite Wooden Lounge Chair",
       material: "Leather & Walnut",
-      badge: "Premium",
-      desc: "Full-grain Italian leather over a walnut base. Deep bucket seat and padded armrests. An evening's companion.",
+      desc: "An elegantly handcrafted premium lounge chair made from high-quality solid wood with a beautifully polished natural finish and ultra-soft luxury cushioning. Designed with a sleek modern silhouette, exceptional durability, and superior comfort, making it a perfect statement piece for luxury homes, offices, lounges, and premium interiors.",
       features: [
-        "Full-grain Italian leather (aniline dyed)",
-        "Solid walnut legs with satin finish",
-        "360° swivel base available",
-        "High-resilience foam + feather blend",
-        "Seat depth: 62 cm",
-        "Matching leather ottoman included"
+        "Premium Solid Wood Frame",
+    "Luxury Soft Cushion Seating",
+    "Modern Minimalist Designer Style",
+    "Smooth Handcrafted Polished Finish",
+    "Strong Durable Long Lasting Build",
+    "Perfect for Luxury Living & Office Spaces"
       ],
       imgs: [
-        "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&q=80",
-        "https://images.unsplash.com/photo-1581539250439-c96689b516dd?w=800&q=80",
-        "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800&q=80",
-        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=800&q=80"
+          "/elitechair.jpeg",
+        
       ]
-    }
+    },
+
+    {
+      id: "c5",
+      name: "Signature Cane Designer Chair",
+      material: "Leather & Walnut",
+      desc: "A beautifully handcrafted designer chair featuring a premium solid wood frame, elegant handwoven natural cane side panels, and ultra-soft luxury upholstery for unmatched comfort. Designed with a sophisticated modern aesthetic and timeless craftsmanship, perfect for luxury dining spaces, living rooms, offices, and premium interiors.",
+      features: [
+        "Premium Solid Wood Construction",
+    "Handwoven Natural Cane Side Panels",
+    "Soft Luxury Upholstered Cushion",
+    "Modern Premium Designer Finish",
+    "Strong & Long Lasting Build Quality",
+    "Ideal for Luxury Home & Office Spaces"
+      ],
+      imgs: [
+          "/designerchair.jpeg",
+        
+      ]
+    },
+    {
+      id: "c6",
+      name: "Handcrafted Cane Lounge Chair",
+      material: "Leather & Walnut",
+      desc: "A beautifully handcrafted wooden chair featuring a natural cane back design with a curved frame that offers comfortable seating and a timeless aesthetic. Perfect for living spaces, cafes, lounges, and modern interiors.",
+      features: [
+        "Solid wood frame",
+  "Natural cane backrest",
+  "Comfortable curved design",
+  "Durable polished finish",
+  "Ideal for indoor spaces"
+      ],
+      imgs: [
+          "/canloungechair.jpeg",
+        
+      ]
+    },
+    {
+      id: "c7",
+      name:  "Comfort Chair",
+      material: "Leather & Walnut",
+      desc: "Carefully designed with a soft curved backrest and comfortable seating. Built with quality materials and strong construction, ideal for living rooms, offices, and modern interior spaces.",
+      features: [
+         "Soft cushioned seat for better comfort",
+    "Curved ergonomic backrest support",
+    "Strong frame with metallic finish legs",
+    "Smooth and durable fabric upholstery",
+    "Spacious and relaxing seating design",
+    "Suitable for home, office and lounge spaces",
+    "Built for long-lasting everyday use"
+      ],
+      imgs: [
+          "/comfortchair.jpeg",
+        
+      ]
+    },
+    {
+      id: "c8",
+      name:  "Cane Wooden Lounge Chair",
+      desc:  "A beautifully crafted wooden lounge chair featuring handwoven cane side panels and soft cushioned seating. Designed to bring comfort, durability, and timeless style to living rooms, offices, cafes, and modern interior spaces.",
+      features: [
+         "Strong solid wood frame construction",
+    "Handwoven cane side panel detailing",
+    "Soft padded seat and back cushion",
+    "Comfortable armrest support",
+    "Suitable for home, office and lounge spaces",
+    "Durable finish with elegant natural wood texture"
+      ],
+      imgs: [
+          "/canewooden.jpeg",
+        
+      ]
+    },
+    {
+      id: "c9",
+      name:  "Wooden Handwoven Accent Chair",
+      desc:  "A handcrafted wooden chair designed with a beautifully curved frame and handwoven seat pattern. Built for everyday comfort and natural aesthetics, making it a perfect addition to living spaces, reading corners, cafes, and modern interiors.",
+      features: [
+         "Strong wooden frame",
+  "Handwoven seat design",
+  "Curved ergonomic armrest",
+  "Durable polished finish",
+  "Ideal for modern interiors"
+      ],
+      imgs: [
+          "/handwooenchair.jpeg",
+        
+      ]
+    },
+     {
+      id: "c10",
+      name:  "Modern Luxe Arm Chair",
+      material: "Leather & Walnut",
+      desc:   "A sophisticated luxury lounge chair crafted with a premium solid wood frame, soft velvet upholstery, and an elegant curved backrest for superior comfort. Designed with a modern premium aesthetic and durable handcrafted finishing, making it a perfect addition for luxury homes, offices, lounges, and designer interiors.",
+      features: [
+         "Premium Solid Wood Structure",
+    "Soft Velvet Upholstery Finish",
+    "Ergonomic Curved Back Support",
+    "Luxury Modern Designer Look",
+    "Strong Durable Premium Build",
+    "Ideal for Living Room & Office Spaces"
+      ],
+      imgs: [
+          "/armchair.jpeg",
+        
+      ]
+    },
+    {
+      id: "c11",
+      name:  "Wooden Fabric Lounge Chair",
+      desc:  "A well-crafted seating option combining durable wooden structure with comfortable fabric cushioning, suitable for homes, offices, waiting areas, and custom furniture setups.",
+      features: [
+         "Durable wooden build",
+    "Comfortable cushioned seat",
+    "Elegant fabric upholstery",
+    "Stable frame design",
+    "Suitable for daily use"
+      ],
+      imgs: [
+          "/fabricchair.jpeg",
+        
+      ]
+    },
+    
+    
+    
   ],
    
   beds: [
     {
       id: "b1",
-      name: "Empress Platform Bed",
+      name: "Curve Luxe Bed",
       price: "₹65,000",
       material: "Teak & Cane",
       badge: "Bestseller",
-      desc: "Solid teak headboard with hand-woven cane inserts above a low-profile platform base. Available in King, Queen, and Double.",
+      desc: "A contemporary upholstered bed featuring soft curves, premium fabric upholstery, and a minimalist luxury design for modern bedrooms.",
       features: [
-        "Solid teak frame (8 cm thick posts)",
-        "Hand-woven natural cane headboard",
-        "Low 20 cm platform base",
-        "Under-bed storage drawer option",
-        "Available in 3 sizes",
-        "Anti-slip leg pads included"
+        "Premium fabric upholstery",
+    "Soft curved silhouette",
+    "Minimalist modern design",
+    "Strong wooden frame",
+    "Custom size options available"
       ],
       imgs: [
-        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
-        "https://images.unsplash.com/photo-1505693314120-0d443867891c?w=800&q=80",
-        "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
-        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80"
+       "/curvebed.jpeg",
+        
       ]
     },
 
     {
       id: "b2",
-      name: "Heritage Four-Poster",
-      price: "₹98,000",
-      material: "Sheesham",
-      badge: "Premium",
-      desc: "Ornately carved sheesham four-poster recreating the grandeur of Rajasthani havelis. Lattice canopy frame with antique brass hardware.",
+      name:  "Modern Cane Upholstered Bed",
+      desc: "Elegant upholstered bed featuring a soft cushioned headboard with premium cane detailing, designed to bring comfort and modern luxury to your bedroom.",
       features: [
-        "Pure sheesham construction",
-        "Ornately carved four corner posts (220 cm height)",
-        "Lattice canopy frame",
-        "Antique brass hardware throughout",
-        "King size: 200 × 200 cm",
-        "Custom sizes available"
+        "Premium upholstered headboard",
+    "Stylish cane side panels",
+    "Strong and durable frame",
+    "Modern curved design",
+    "Comfortable back support"
       ],
       imgs: [
-        "https://images.unsplash.com/photo-1505693314120-0d443867891c?w=800&q=80",
-        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
-        "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
-        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80"
+        "/bed.jpeg",
+       
       ]
     },
 
     {
       id: "b3",
-      name: "Minimal Oak Bed",
+      name: "Noir Cane Bed",
       price: "₹48,500",
       material: "White Oak",
       badge: "New Arrival",
-      desc: "Clean, deliberate, and calm. White oak frame with light natural finish and padded linen headboard. Slated base for mattress breathability.",
+      desc:   "A premium modern bed featuring bold black wood, elegant cane panels, and a statement headboard for sophisticated interiors.",
       features: [
-        "Solid white oak frame",
-        "Padded linen headboard (custom height)",
-        "Hidden bolt joinery for clean lines",
-        "Slated base for breathability",
-        "Queen size: 160 × 200 cm",
-        "5-year structural warranty"
+         "Premium cane side panels",
+    "Modern black finish",
+    "Designer statement headboard",
+    "Strong wooden construction",
+    "Luxury contemporary style"
       ],
       imgs: [
-        "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
-        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
-        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
-        "https://images.unsplash.com/photo-1505693314120-0d443867891c?w=800&q=80"
+        "/noirbed.jpeg"
+      ]
+    },
+    {
+      id: "b4",
+      name: "Versailles Cane Bed",
+      desc:   "A timeless handcrafted cane bed featuring an elegant wingback headboard and premium wooden craftsmanship for luxurious interiors.",
+      features: [
+         "Classic wingback design",
+    "Premium natural cane work",
+    "Solid wood construction",
+    "Elegant handcrafted finish",
+    "Perfect for luxury bedrooms"
+      ],
+      imgs: [
+        "/versaillesbbed.jpeg"
+      ]
+    },
+    {
+      id: "b5",
+      name: "Aspen Cane Bed",
+      desc:    "A modern wooden bed featuring elegant cane detailing and a sturdy handcrafted frame, designed for everyday comfort and timeless style.",
+      features: [
+         "Premium cane headboard",
+    "Solid wood construction",
+    "Modern minimalist design",
+    "Durable handcrafted finish",
+    "Custom size options available"
+      ],
+      imgs: [
+        "/aspenbed.jpeg"
+      ]
+    },
+    {
+      id: "b6",
+      name: "Nordic Cane Bed",
+      desc:     "A minimalist wooden bed featuring a handcrafted cane headboard and a sleek Scandinavian-inspired design for modern bedrooms.",
+      features: [
+          "Handcrafted cane headboard",
+    "Solid wood frame",
+    "Minimal Scandinavian design",
+    "Strong and durable construction",
+    "Custom size options available"
+      ],
+      imgs: [
+        "/nordicbed.jpeg"
       ]
     }
   ],
@@ -242,16 +385,15 @@ export const PRODUCTS = {
         "Food-safe surface finish"
       ],
       imgs: [
-        "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?w=800&q=80",
-        "https://images.unsplash.com/photo-1481277542470-605612bd2d61?w=800&q=80",
-        "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=800&q=80",
-        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80"
+        "/dining1.jpeg",
+        "/dining2.jpeg",
+        "/dining3.jpeg",
       ]
     },
 
     {
       id: "t2",
-      name: "Japandi Coffee Table",
+      name: "Console Table",
       price: "₹24,500",
       material: "Teak & Brass",
       badge: "New Arrival",
@@ -265,7 +407,7 @@ export const PRODUCTS = {
         "Felt leg pads included"
       ],
       imgs: [
-        "https://images.unsplash.com/photo-1481277542470-605612bd2d61?w=800&q=80",
+        "/consoletable1.jpeg",
         "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?w=800&q=80",
         "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=800&q=80",
         "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80"

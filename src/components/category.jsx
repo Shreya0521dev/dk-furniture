@@ -49,7 +49,7 @@ function Categories({ setSelectedCategory, setPage }) {
             <img
               src={cat.img}
               alt={cat.name}
-              className="w-full h-52 object-cover"
+              className="w-full h-95 object-contain"
             />
 
             <div className="p-5">
