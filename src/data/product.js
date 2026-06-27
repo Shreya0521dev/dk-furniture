@@ -1,14 +1,16 @@
 export const CATEGORIES = [
   { id: "chairs", name: "Chairs",
     img: "/royalchair.jpeg" },
-  { id: "beds", name: "Beds", count: 8,
+  { id: "beds", name: "Beds", 
     img: "/bed.jpeg" },
-  { id: "sofas", name: "Sofas", count: 10,
+  { id: "sofas", name: "Sofas",
     img: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&q=80" },
-  { id: "tables", name: "Tables", count: 15,
-    img: "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?w=400&q=80" },
-  { id: "wardrobes", name: "Wardrobes", count: 6,
-    img:  "/shoerack.jpeg" },
+  { id: "tables", name: "Tables",
+    img: "/marbalcentertable.png" },
+  { id: "shoerack", name: "Shoe Rack", 
+    img:  "/shoerack.png" },
+    { id: "dressing", name: "Dressing", 
+    img:  "/dressing.png" },
 ];
 
 export const PRODUCTS = {
@@ -344,47 +346,26 @@ export const PRODUCTS = {
       ]
     },
 
-    {
-      id: "s2",
-      name: "Heritage Chesterfield",
-      price: "₹85,000",
-      material: "Full-Grain Leather",
-      badge: "Premium",
-      desc: "Hand-tufted in full-grain cognac leather with deep button detailing and solid hardwood feet in ebony finish. Classic without being stuffy.",
-      features: [
-        "Full-grain hand-tufted leather",
-        "8 leather colour options",
-        "Solid hardwood double-dowel joints",
-        "Hand-stuffed curled hair & foam blend",
-        "3-seater: 220W × 90D × 80H cm",
-        "Medium-firm cushion filling"
-      ],
-      imgs: [
-        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800&q=80",
-        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80",
-        "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=800&q=80",
-        "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=800&q=80"
-      ]
-    }
+
   ],
 
     tables: [
     {
       id: "t1",
-      name: "Live-Edge Dining Table",
-      price: "₹72,000",
-      material: "Acacia Slab",
-      badge: "Bestseller",
-      desc: "Single acacia slab with natural edge preserved. Matte epoxy fill, industrial hairpin legs. No two are identical.",
+      name: "Canewood Dining Table",
+     
+      desc: "Elegant handcrafted solid wood dining set with premium cane woven detailing, designed to bring luxury and comfort to modern dining spaces.",
       features: [
-        "Single slab acacia (live natural edge)",
-        "Matte epoxy fill for crevices",
-        "Industrial hairpin steel legs (3 rod)",
-        "Seats 6–8 people",
-        "Dimensions: 220W × 90D × 76H cm",
-        "Food-safe surface finish"
+        "Solid wood handcrafted frame",
+    "Natural cane woven detailing",
+    "6-seater spacious design",
+    "Premium polished finish",
+    "Durable long-lasting build",
+    "Comfortable ergonomic seating",
+    "Luxury traditional design"
       ],
       imgs: [
+        "/hero.jpeg",
         "/dining1.jpeg",
         "/dining2.jpeg",
         "/dining3.jpeg",
@@ -393,96 +374,166 @@ export const PRODUCTS = {
 
     {
       id: "t2",
-      name: "Console Table",
+      name: "Noir Console Table",
       price: "₹24,500",
       material: "Teak & Brass",
       badge: "New Arrival",
-      desc: "Solid teak surface with slender solid brass legs. Low, grounded, and beautiful. Japanese minimalism meets Scandinavian warmth.",
+      desc: "A beautifully crafted console table designed to bring elegance and functionality to modern interiors. Featuring a rich black finish, spacious drawers, and a sturdy lower shelf, it serves as a perfect addition for living rooms, hallways, and entry spaces.",
       features: [
-        "Solid teak tabletop (4 cm thickness)",
-        "Brushed solid brass legs",
-        "Height: 38 cm (low-profile lounge)",
-        "Top: 110W × 60D cm",
-        "Natural oil finish",
-        "Felt leg pads included"
+         "Premium solid wood construction",
+    "Elegant matte black finish",
+    "Three spacious storage drawers",
+    "Open lower shelf for décor and storage",
+    "Strong durable handcrafted frame",
+    "Smooth polished surface",
+    "Suitable for living room and hallway spaces"
       ],
       imgs: [
         "/consoletable1.jpeg",
-        "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?w=800&q=80",
-        "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=800&q=80",
-        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80"
+        
       ]
     },
 
     {
       id: "t3",
-      name: "Study Writing Desk",
-      price: "₹32,000",
-      material: "Walnut & Steel",
-      badge: "Popular",
-      desc: "Solid walnut top with powder-coated steel frame. Cable management groove, one fixed brass-pull drawer. A desk worth working at.",
+      name: "Carved Center Table",
+     
+      desc: "Premium luxury carved center table with elegant detailing and durable wooden construction, perfect for modern living spaces.",
       features: [
-        "Solid American walnut top",
-        "Black matte powder-coated steel legs",
-        "Cable management groove at rear",
-        "One fixed drawer with brass pull",
-        "Dimensions: 140W × 65D × 76H cm",
-        "Optional monitor riser add-on"
+        "Premium wood construction",
+    "Decorative carved detailing",
+    "Spacious tabletop",
+    "Durable sturdy frame",
+    "Luxury modern design",
+    "Easy maintenance",
+    "Extra storage shelf"
       ],
       imgs: [
-        "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=800&q=80",
-        "https://images.unsplash.com/photo-1481277542470-605612bd2d61?w=800&q=80",
-        "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?w=800&q=80",
-        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80"
+        "/centertable.png",
+      ]
+    },
+    {
+      id: "t4",
+      name: " Marble Center Table",
+     
+      desc:"Add elegance to your living room with the Royal Marble Center Table, featuring a premium marble-finish top and durable wooden craftsmanship for a luxurious modern look.",
+      features: [
+         "Premium marble-finish tabletop",
+    "Strong solid wood base",
+    "Elegant carved designer pattern",
+    "Spacious surface for decor & serving",
+    "Scratch-resistant finish",
+    "Perfect for luxury interiors"
+      ],
+      imgs: [
+        "/marbalcentertable.png",
+      ]
+    },
+    {
+      id: "t6",
+      name: " Curve Side Table",
+     
+      desc:"A sleek and elegant wooden side table featuring a unique curved pedestal base with a minimalist modern design. Perfect for living rooms, bedrooms, and contemporary interior spaces.",
+      features: [
+         "Premium wooden construction",
+    "Unique curved pedestal design",
+    "Smooth polished finish",
+    "Compact and space-saving structure",
+    "Strong stable circular base",
+    "Ideal for living room and bedroom use",
+    "Modern minimalist aesthetic"
+      ],
+      imgs: [
+        "/sidetable.png",
+      ]
+    },
+    {
+      id: "t7",
+      name: "Nordic Cane Side Table",
+     
+      desc:"Minimalist round wooden side table with lower cane shelf, perfect for living rooms and modern interiors.",
+      features: [
+"Premium Solid Wood Construction",
+  "Minimalist Round Table Design",
+  "Extra Lower Storage Shelf",
+  "Smooth Natural Wood Finish",
+  "Strong & Durable Build Quality",
+  "Perfect for Living Room & Bedroom",
+  "Compact Space Saving Design",
+  "Elegant Modern Home Decor Style"
+
+      ],
+      imgs: [
+        "/sidetable2.png",
       ]
     }
   ],
 
-  wardrobes: [
+  shoerack: [
     {
       id: "w1",
-      name: "Royal Walk-In Wardrobe",
-      price: "₹2,40,000",
-      material: "Plywood & Veneer",
-      badge: "Premium",
-      desc: "Fully customisable wardrobe system with integrated LED lighting, velvet-lined drawers and centre island. Site visit included.",
+      name:  "CaneWood Shoe Rack Cabinet",
+      
+      desc:  "Elegant wooden shoe rack cabinet featuring premium cane panel doors, compact design, and spacious storage for organized living spaces.",
       features: [
-        "18mm marine-grade plywood carcass",
-        "Natural walnut veneer doors",
-        "LED strip lighting (sensor-activated)",
-        "Velvet-lined jewellery drawer",
-        "Soft-close hinges & drawer runners",
-        "Fully custom dimensions – site visit included"
+         "Premium Solid Wood Build",
+    "Natural Cane Front Panels",
+    "Spacious Multi-Pair Shoe Storage",
+    "Compact Space Saving Design",
+    "Durable Brass Handles",
+    "Modern Minimal Aesthetic",
+    "Ventilated Storage for Freshness"
       ],
       imgs: [
-        "https://images.unsplash.com/photo-1558997519-83ea9252eae8?w=800&q=80",
-        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
-        "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
-        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80"
+       "/shoerack.png",
+       "/shoerack2.png",
+        
       ]
     },
 
+   
+  ],
+   dressing: [
     {
-      id: "w2",
-      name: "Classic 3-Door Wardrobe",
-      price: "₹68,000",
-      material: "Solid Teak",
-      badge: "Bestseller",
-      desc: "Solid teak with honey finish, antique brass hardware, full-length mirror door, built-in shoe rack. Free installation.",
+      id: "d1",
+      name:  "Royal Vintage Dressing",
+      
+      desc:  "Elegant vintage-style dressing console with oval mirror, premium carved detailing, spacious drawers, and luxurious handcrafted finish.",
       features: [
-        "Solid teak frame and panel doors",
-        "Antique brass ring-pull handles",
-        "One full-length mirror door",
-        "3 drawers + 6 shelves + hanging rail",
-        "Dimensions: 180W × 55D × 210H cm",
-        "Free installation included"
+         "Premium carved wooden frame",
+    "Large oval mirror design",
+    "Multiple storage drawers",
+    "Luxury vintage aesthetic",
+    "Durable handcrafted build",
+    "Smooth polished finish"
       ],
       imgs: [
-        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
-        "https://images.unsplash.com/photo-1558997519-83ea9252eae8?w=800&q=80",
-        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
-        "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80"
+       "/dressing1.png",
+       
+        
       ]
-    }
+    },
+     {
+      id: "d2",
+      name:  "Imperial Heritage Vanity Mirror",
+      
+      desc:  "Luxurious handcrafted dressing table with ornate carved wooden detailing, large decorative mirror, and premium antique finish for elegant interiors.",
+      features: [
+         "Intricate handcrafted wood carving",
+    "Large premium decorative mirror",
+    "Classic royal antique design",
+    "Premium solid wood construction",
+    "Elegant polished walnut finish",
+    "Perfect for luxury bedroom interiors",
+    "Durable heirloom quality craftsmanship"
+      ],
+      imgs: [
+       "/dressingtable.png",
+       
+        
+      ]
+    },
+
+   
   ]
 };
