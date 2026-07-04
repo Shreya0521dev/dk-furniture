@@ -32,13 +32,6 @@ function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           {/* Left Side */}
           <div className="flex flex-col md:flex-row gap-8 items-center">
-            {/* Image */}
-            <img
-              src="https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=500&q=80"
-              alt="Chair"
-              className="w-52 h-72 object-cover rounded-2xl"
-            />
-
             {/* Text */}
             <div>
               <h2 className="text-4xl md:text-6xl font-bold text-[#3b2416] leading-tight mb-4 font-serif">

@@ -4,7 +4,7 @@ export const CATEGORIES = [
   { id: "beds", name: "Beds", 
     img: "/bed.jpeg" },
   { id: "sofas", name: "Sofas",
-    img: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&q=80" },
+    img: "/sofa.jpeg"},
   { id: "tables", name: "Tables",
     img: "/marbalcentertable.png" },
   { id: "shoerack", name: "Shoe Rack", 
@@ -32,6 +32,8 @@ export const PRODUCTS = {
       
       imgs: [
         "/chair.jpeg",
+         "/chair4.jpeg",
+         "/chair5.jpeg",
         "/chair2.jpeg",
         "/chair3.jpeg"
       ]
@@ -54,9 +56,48 @@ export const PRODUCTS = {
         
       ]
     },
+     {
+      id: "c3",
+      name: "Luxe Lounge Chair",
+      desc: "A premium modern lounge chair with matching footrest, designed for superior comfort and elegant contemporary interiors.",
+      features: [
+          "Premium soft upholstery",
+    "Matching footrest included",
+    "Comfortable ergonomic design",
+    "Strong wooden base",
+    "Perfect for luxury interiors"
+      ],
+      imgs: [
+        "/luxechair.jpeg",
+        "/luxechair2.jpeg",
+        "/luxechair3.jpeg",
+        "/luxechair4.jpeg",
+        
+      ]
+    },
 
     {
-      id: "c3",
+      id: "c13",
+      name: "Velvet Luxe Chair",
+      desc: "A modern premium chair featuring soft velvet upholstery, elegant quilted design, and superior comfort for stylish interiors.",
+      features: [
+        "Premium velvet upholstery",
+    "Elegant quilted design",
+    "Comfortable cushioned seat",
+    "Strong wooden legs",
+    "Modern luxury finish"
+      ],
+      imgs: [
+        "/velvetchair2.jpeg",
+        "/velvetchair3.jpeg",
+        "/velvetchair4.jpeg",
+        "/velvetchair.jpeg",
+        
+      ]
+    },
+
+    {
+      id: "c4",
       name: "Royal Cane Accent Chair",
       material: "Sheesham & Linen",
       desc: "Elegant handcrafted premium wooden chair featuring a luxurious blue upholstered seat with a finely woven natural cane backrest. Designed with classic detailing, smooth polished wood finish, and superior comfort — perfect for living rooms, offices, lounges, and premium interior spaces.",
@@ -75,7 +116,7 @@ export const PRODUCTS = {
     },
 
     {
-      id: "c4",
+      id: "c5",
       name: "Elite Wooden Lounge Chair",
       material: "Leather & Walnut",
       desc: "An elegantly handcrafted premium lounge chair made from high-quality solid wood with a beautifully polished natural finish and ultra-soft luxury cushioning. Designed with a sleek modern silhouette, exceptional durability, and superior comfort, making it a perfect statement piece for luxury homes, offices, lounges, and premium interiors.",
@@ -94,7 +135,7 @@ export const PRODUCTS = {
     },
 
     {
-      id: "c5",
+      id: "c6",
       name: "Signature Cane Designer Chair",
       material: "Leather & Walnut",
       desc: "A beautifully handcrafted designer chair featuring a premium solid wood frame, elegant handwoven natural cane side panels, and ultra-soft luxury upholstery for unmatched comfort. Designed with a sophisticated modern aesthetic and timeless craftsmanship, perfect for luxury dining spaces, living rooms, offices, and premium interiors.",
@@ -112,7 +153,7 @@ export const PRODUCTS = {
       ]
     },
     {
-      id: "c6",
+      id: "c7",
       name: "Handcrafted Cane Lounge Chair",
       material: "Leather & Walnut",
       desc: "A beautifully handcrafted wooden chair featuring a natural cane back design with a curved frame that offers comfortable seating and a timeless aesthetic. Perfect for living spaces, cafes, lounges, and modern interiors.",
@@ -129,7 +170,7 @@ export const PRODUCTS = {
       ]
     },
     {
-      id: "c7",
+      id: "c8",
       name:  "Comfort Chair",
       material: "Leather & Walnut",
       desc: "Carefully designed with a soft curved backrest and comfortable seating. Built with quality materials and strong construction, ideal for living rooms, offices, and modern interior spaces.",
@@ -148,7 +189,7 @@ export const PRODUCTS = {
       ]
     },
     {
-      id: "c8",
+      id: "c9",
       name:  "Cane Wooden Lounge Chair",
       desc:  "A beautifully crafted wooden lounge chair featuring handwoven cane side panels and soft cushioned seating. Designed to bring comfort, durability, and timeless style to living rooms, offices, cafes, and modern interior spaces.",
       features: [
@@ -165,7 +206,7 @@ export const PRODUCTS = {
       ]
     },
     {
-      id: "c9",
+      id: "c10",
       name:  "Wooden Handwoven Accent Chair",
       desc:  "A handcrafted wooden chair designed with a beautifully curved frame and handwoven seat pattern. Built for everyday comfort and natural aesthetics, making it a perfect addition to living spaces, reading corners, cafes, and modern interiors.",
       features: [
@@ -181,7 +222,7 @@ export const PRODUCTS = {
       ]
     },
      {
-      id: "c10",
+      id: "c11",
       name:  "Modern Luxe Arm Chair",
       material: "Leather & Walnut",
       desc:   "A sophisticated luxury lounge chair crafted with a premium solid wood frame, soft velvet upholstery, and an elegant curved backrest for superior comfort. Designed with a modern premium aesthetic and durable handcrafted finishing, making it a perfect addition for luxury homes, offices, lounges, and designer interiors.",
@@ -199,7 +240,7 @@ export const PRODUCTS = {
       ]
     },
     {
-      id: "c11",
+      id: "c12",
       name:  "Wooden Fabric Lounge Chair",
       desc:  "A well-crafted seating option combining durable wooden structure with comfortable fabric cushioning, suitable for homes, offices, waiting areas, and custom furniture setups.",
       features: [
@@ -324,28 +365,212 @@ export const PRODUCTS = {
 
   sofas: [
     {
-      id: "s1",
-      name: "Havana Corner Sofa",
-      price: "₹1,20,000",
-      material: "Fabric & Mango Wood",
-      badge: "Bestseller",
-      desc: "L-shaped corner sofa in warm mocha fabric with solid mango wood frame and deep sink-in cushions. The heart of every living room.",
+      id: "s4",
+      name: "Modern Curved Luxury Sofa",
+      
+      desc:"A beautifully designed luxury sofa crafted with smooth curved edges and ultra-soft premium upholstery to create a sophisticated modern living experience. Its unique contemporary silhouette, plush comfort seating, and elegant minimal aesthetic make it a perfect centerpiece for premium home interiors.",
       features: [
-        "Solid mango wood frame",
-        "Premium mocha fabric (stain-resistant)",
-        "4 cushion density options",
-        "Modular: left or right corner config",
-        "Chaise: 295 × 175 cm",
-        "10-year frame warranty"
+       "Unique modern curved luxury design",
+    "Premium soft-touch fabric upholstery",
+    "High-density cushioning for superior comfort",
+    "Smooth rounded edges with elegant finish",
+    "Strong durable frame for long-lasting support",
+    "Minimalist premium aesthetic for modern interiors",
+    "Spacious comfortable seating for everyday use",
+    "Perfect for luxury living rooms and designer spaces"
       ],
       imgs: [
-        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80",
-        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800&q=80",
-        "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=800&q=80",
-        "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=800&q=80"
+         "/curvesofa.jpeg",
+         "/curvesofa2.jpeg",
+         "/curvesofa3.jpeg",
+         "/curvesofa4.jpeg",
+         "/curvesofa5.jpeg",
+         
+       
+      ]
+    },
+    {
+      id: "s2",
+      name: "CaneCraft Wooden Loveseat",
+      
+      desc:"Stylish handcrafted wooden loveseat featuring premium fabric cushioning, elegant curved armrests, and a warm natural finish for modern living spaces.",
+      features: [
+        "Premium solid wood frame",
+    "Soft high density seat cushioning",
+    "Comfortable dual backrest pillows",
+    "Elegant curved wooden armrests",
+    "Minimal modern design aesthetic",
+    "Durable handcrafted construction",
+    "Perfect for living room interiors"
+      ],
+      imgs: [
+         "/Wooden Sofa.jpeg",
+         "/woodensofa2.jpeg",
+         "/woodensofa3.jpeg",
+         "/woodensofa4.jpeg",
+         "/woodensofa5.jpeg"
+       
+      ]
+    },
+    {
+      id: "s3",
+      name: "Luxury Modern Sofa Set",
+      
+      desc: "A beautifully crafted premium sofa set designed to elevate modern living spaces with comfort and elegance. Featuring soft premium upholstery, smooth curved edges, sturdy wooden base support, and a minimalist luxury design that perfectly complements contemporary home interiors.",
+      features: [
+       "Premium soft fabric upholstery",
+    "High-density foam cushioning for extra comfort",
+    "Strong wooden frame for long durability",
+    "Elegant luxury design for modern interiors",
+    "Smooth curved edges with premium finishing",
+    "Comfortable seating for everyday use",
+    "Durable handcrafted construction",
+    "Perfect for living room and lounge spaces"
+      ],
+      imgs: [
+         "/comfortsofa.jpeg",
+         "/comfortsofa2.jpeg",
+         "/comfortsofa3.jpeg",
+         "/comfortsofa4.jpeg",
+       
+      ]
+    },
+    
+{
+      id: "s1",
+      name: "Regal Luxe Velvet Sofa",
+      
+      desc:"Elegant luxury sofa crafted with plush velvet upholstery, royal tufted backrest, and premium golden accent detailing for sophisticated living spaces.",
+      features: [
+        "Premium soft velvet upholstery",
+    "Elegant tufted backrest design",
+    "Luxury gold accent armrests",
+    "High density comfortable cushioning",
+    "Strong durable wooden frame",
+    "Perfect for luxury living rooms",
+    "Modern royal aesthetic finish"
+      ],
+      imgs: [
+         "/velvetsofa.jpeg",
+       
       ]
     },
 
+
+    {
+      id: "s5",
+      name: "Premium Wooden Lounge Sofa",
+      
+      desc: "A beautifully handcrafted wooden sofa designed with premium cushioning, elegant cane side detailing, and a timeless contemporary look. Built using high-quality solid wood and soft upholstered seating, this sofa brings together comfort, durability, and sophisticated craftsmanship, making it a perfect addition to modern and luxury living spaces.",
+      features: [
+       "Premium solid wood handcrafted frame",
+    "Elegant cane panel detailing on side arms",
+    "Soft high-density foam cushioning",
+    "Premium fabric upholstery for superior comfort",
+    "Strong durable structure for long-lasting use",
+    "Spacious seating with extra comfort pillows",
+    "Modern handcrafted design with luxury finish",
+    "Perfect for living rooms and premium interiors"
+      ],
+      imgs: [
+         "/loungesofa.jpeg",
+         "/laungesofa2.jpeg",
+         "/loungesofa3.jpeg",
+         "/loungesofa4.jpeg",
+         
+       
+      ]
+    },
+    {
+      id: "s6",
+      name: "Premium Cane Living Room Set",
+      
+      desc:  "An elegant handcrafted living room furniture set designed with premium solid wood framing, sophisticated cane weave detailing, and ultra-comfortable upholstered seating. This beautifully crafted set combines timeless craftsmanship with modern aesthetics, making it a perfect centerpiece for luxury homes and stylish interiors.",
+      features: [
+        "Complete premium living room furniture set",
+    "Solid wood handcrafted durable frame",
+    "Elegant cane weave detailing for premium look",
+    "Soft premium fabric upholstery for extra comfort",
+    "Includes sofa, two lounge chairs and center table",
+    "Strong long-lasting handcrafted construction",
+    "Luxury finish with modern aesthetic appeal",
+    "Perfect for premium living rooms and elegant interiors"
+      ],
+      imgs: [
+         "/canesofa.jpeg",
+          "/canesofa2.jpeg",
+          "/canesofa3.jpeg",
+          "/canesofa4.jpeg",
+         
+       
+      ]
+    },
+    {
+      id: "s7",
+      name: "Royal Heritage Wooden Sofa",
+      
+      desc:   "A beautifully handcrafted luxury sofa designed with elegant carved wooden detailing, premium velvet upholstery, and a timeless royal aesthetic. Inspired by classic heritage craftsmanship, this statement furniture piece combines luxurious comfort with artistic detailing, making it perfect for sophisticated interiors and premium living spaces.",
+      features: [
+        "Premium solid wood frame",
+    "Elegant handcrafted carving",
+    "Soft velvet upholstery",
+    "Comfortable cushioned seating",
+    "Luxury heritage design",
+    "Strong durable build"
+      ],
+      imgs: [
+         "/herisofa.jpeg",
+         "/herisofa2.jpeg",
+         "/herisofa3.jpeg"
+        
+       
+      ]
+    },
+     {
+      id: "s8",
+      name: "Royal Majesty Sofa",
+      
+      desc:   "Elegant handcrafted sofa with a luxurious classic design, premium upholstery, and finely carved wooden frame. Perfect for adding a royal touch to living spaces.",
+      features: [
+        "Premium cushioned seating",
+    "Elegant carved wooden detailing",
+    "Soft durable fabric upholstery",
+    "Strong long-lasting frame",
+    "Luxury classic design"
+      ],
+      imgs: [
+         "/majestysofa.jpeg",
+         "/majestysofa2.jpeg",
+         "/majestysofa3.jpeg",
+         "/majestysofa4.jpeg",
+         "/majestysofa5.jpeg",
+        
+       
+      ]
+    },
+
+     {
+      id: "s9",
+      name: "Elegant Curve Sofa",
+      
+      desc:  "A premium luxury sofa designed with elegant curves, soft upholstery, and a refined royal finish that adds sophistication to modern interiors.",
+      features: [
+        "Soft premium upholstery",
+    "Elegant curved design",
+    "Luxury handcrafted finish",
+    "Comfortable cushioned seating",
+    "Strong durable frame"
+      ],
+      imgs: [
+         "/luxesofa.jpeg",
+         "/luxesofa2.jpeg",
+         "/luxesofa3.jpeg",
+        
+        
+       
+      ]
+    },
+    
 
   ],
 

@@ -28,19 +28,6 @@ function Detail({ selectedProduct, setPage }) {
             className="w-full h-auto object-contain"
             loading="lazy"
           />
-
-          {/* Small Preview Images */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-            {selectedProduct.imgs.slice(1).map((img, index) => (
-              <img
-                key={index}
-                src={img}
-                alt="preview"
-                className="w-full h-32 md:h-40 object-contain rounded-xl cursor-pointer transition duration-300 hover:scale-105"
-                loading="lazy"
-              />
-            ))}
-          </div>
         </div>
 
         {/* Right Details */}
@@ -85,6 +72,41 @@ function Detail({ selectedProduct, setPage }) {
           >
             Contact For Price
           </button>
+        </div>
+      </div>
+      {/* Small Preview Images */}
+      {/* Process Section under main image */}
+      <div className="mt-10 bg-[#f8f5f1] rounded-2xl p-6 md:p-8 w-full">
+        <div className="flex flex-col lg:flex-row gap-6">
+          {/* Left Heading */}
+          <div className="lg:w-1/4">
+            <h2 className="text-2xl md:text-4xl font-serif leading-tight text-[#4a3428]">
+              Our Process
+            </h2>
+
+            <p className="mt-4 text-gray-600 text-sm md:text-base leading-7">
+              Every furniture piece is handcrafted with precision and premium
+              quality materials.
+            </p>
+          </div>
+
+          {/* Right Images */}
+          <div className="lg:w-3/4 flex gap-3 overflow-x-auto">
+            {selectedProduct.imgs.slice(1).map((img, index) => (
+              <div
+                key={index}
+                style={{ minWidth: "160px" }}
+                className="rounded-xl overflow-hidden shadow-md"
+              >
+                <img
+                  src={img}
+                  alt="process"
+                  className="w-full h-52 object-contain hover:scale-105 transition duration-300"
+                  loading="lazy"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
