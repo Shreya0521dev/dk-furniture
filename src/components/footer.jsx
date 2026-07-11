@@ -73,7 +73,7 @@ function Footer() {
 
           <div className="space-y-3 text-gray-400 text-sm md:text-base">
             <p>📞 +91 98737 73049</p>
-            <p> WhatsApp Available</p>
+            <p> </p>
             <p>📍 Delhi, India</p>
             <p>✉ info@dkfurniture.in</p>
           </div>
