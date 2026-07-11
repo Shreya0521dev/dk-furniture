@@ -40,8 +40,7 @@ function About() {
 
       <p className="text-gray-300 text-base md:text-lg leading-8 max-w-4xl mb-14">
         From a cane workshop established in 1991 to a full-service furniture
-        showroom — our family has been shaping Indian homes across three
-        decades.
+        Shop — our family has been shaping Indian homes across three decades.
       </p>
 
       {/* Feature cards */}

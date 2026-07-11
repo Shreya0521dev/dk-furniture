@@ -22,22 +22,31 @@ function Navbar({ setPage }) {
       }}
     >
       {/* Logo */}
-      <div
-        className="flex items-center gap-3 cursor-pointer"
-        onClick={() => setPage("home")}
-      >
-        <LogoMark />
-
-        <div>
+      <div>
+        <div
+          className="flex items-center gap-3 cursor-pointer"
+          onClick={() => setPage("home")}
+        >
+          <LogoMark />
           <div
-            className="text-lg md:text-xl font-extrabold tracking-wide"
+            className="text-2xl md:text-4xl font-extrabold tracking-wide"
             style={{ color: C.walnut }}
           >
             DK Furniture
-          </div>
+            <div className="text-xs tracking-[2px]">
+              <span style={{ color: "#777" }}>From the minds of </span>
 
-          <div className="text-xs tracking-[2px]" style={{ color: "#777" }}>
-            Quality You Deserve
+              <span
+                style={{
+                  color: C.gold,
+                  fontWeight: "800",
+                  textTransform: "uppercase",
+                  letterSpacing: "1.5px",
+                }}
+              >
+                DALIP CANE WORK
+              </span>
+            </div>
           </div>
         </div>
       </div>

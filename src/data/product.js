@@ -11,6 +11,15 @@ export const CATEGORIES = [
     img:  "/shoerack.png" },
     { id: "dressing", name: "Dressing", 
     img:  "/dressing.png" },
+     { id: "consoletable", name: "Console Table", 
+    img:  "/consoletable1.jpeg" },
+    { id: "Diningtables", name: "Dining Tables", 
+    img:  "/dressing.png" },
+     { id: "Designer", name: "Designer Work", 
+    img:  "/dressing.png" },
+     { id: "Dalipcane", name: "Cane Work", 
+    img:  "/dressing.png" },
+    
 ];
 
 export const PRODUCTS = {
@@ -760,5 +769,25 @@ export const PRODUCTS = {
     },
 
    
+  ],
+ consoletable: [
+    {
+      id: "CT1",
+      name: "Noir Console Table",
+      desc: "A beautifully crafted console table designed to bring elegance and functionality to modern interiors. Featuring a rich black finish, spacious drawers, and a sturdy lower shelf, it serves as a perfect addition for living rooms, hallways, and entry spaces.",
+      features: [
+         "Premium solid wood construction",
+    "Elegant matte black finish",
+    "Three spacious storage drawers",
+    "Open lower shelf for décor and storage",
+    "Strong durable handcrafted frame",
+    "Smooth polished surface",
+    "Suitable for living room and hallway spaces"
+      ],
+      imgs: [
+        "/consoletable1.jpeg",
+        
+      ]
+    },
   ]
 };
