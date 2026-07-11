@@ -75,7 +75,7 @@ function Footer() {
             <p>📞 +91 98737 73049</p>
             <p> WhatsApp Available</p>
             <p>📍 Delhi, India</p>
-            <p>✉ info@dkfurniture.in </p>
+            <p>✉ info@dkfurniture.in</p>
           </div>
         </div>
       </div>
