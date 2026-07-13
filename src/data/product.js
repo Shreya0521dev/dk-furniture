@@ -7,18 +7,17 @@ export const CATEGORIES = [
     img: "/sofa.jpeg"},
   { id: "tables", name: "Tables",
     img: "/marbalcentertable.png" },
-  { id: "shoerack", name: "Shoe Rack", 
-    img:  "/shoerack.png" },
+    { id: "Diningtables", name: "Dining Tables", 
+    img:  "/NordicDining.png" },
+ 
     { id: "dressing", name: "Dressing", 
     img:  "/dressing.png" },
      { id: "consoletable", name: "Console Table", 
     img:  "/consoletable1.jpeg" },
-    { id: "Diningtables", name: "Dining Tables", 
-    img:  "/dressing.png" },
      { id: "Designer", name: "Designer Work", 
-    img:  "/dressing.png" },
+    img:  "/bedroomcollection.jpeg" },
      { id: "Dalipcane", name: "Cane Work", 
-    img:  "/dressing.png" },
+    img:  "/dalip_cane.jpeg" },
     
 ];
 
@@ -86,6 +85,29 @@ export const PRODUCTS = {
     },
 
     {
+      id: "c14",
+      name: "cane comfort chair",
+      desc: "Experience timeless craftsmanship with our Scandinavian Cane Lounge Chair. Crafted from premium solid wood with a handwoven natural cane backrest, this chair combines elegant design with exceptional comfort. Its plush cushioning and ergonomic structure make it perfect for living rooms, lounges, reading corners, offices, and luxury interiors.",
+      features: [
+           "Premium solid wood frame",
+  "Natural handwoven cane back",
+  "High-density foam cushioning",
+  "Ergonomic and comfortable design",
+  "Premium fabric upholstery",
+  "Strong & durable construction",
+  "Ideal for living rooms and lounges",
+      ],
+      imgs: [
+        "/Cane Comfort Chair.jpeg",
+        "/Cane Comfort Chair2.png",
+        "/Cane Comfort Chair3.png",
+        "/Cane Comfort Chair4.png",
+         "/Cane Comfort Chair5.jpeg"
+        
+      ]
+    },
+
+    {
       id: "c13",
       name: "Velvet Luxe Chair",
       desc: "A modern premium chair featuring soft velvet upholstery, elegant quilted design, and superior comfort for stylish interiors.",
@@ -120,6 +142,29 @@ export const PRODUCTS = {
       ],
       imgs: [
         "/Canechair.jpeg",
+        
+      ]
+    },
+    {
+      id: "c15",
+      name: "Nova Accent Chair",
+      material: "Sheesham & Linen",
+      desc: "Designed with clean geometric lines and premium solid wood craftsmanship, the Axis Lounge Chair blends contemporary style with everyday comfort. Its plush upholstered seat and backrest provide exceptional support, making it an ideal choice for modern living rooms, offices, cafés, and luxury interiors.",
+      features: [
+         "Premium solid wood frame",
+  "Soft upholstered seat & backrest",
+  "Modern geometric design",
+  "Ergonomic armrests",
+  "Strong & durable construction",
+  "Comfortable for everyday use",
+  "Ideal for homes and offices",
+      ],
+      imgs: [
+        "/Nova Accent Chair.jpeg",
+        "/Nova Accent Chair2.png",
+        "/Nova Accent Chair3.png",
+        "/Nova Accent Chair4.jpeg",
+        "/Nova Accent Chair5.jpeg",
         
       ]
     },
@@ -703,30 +748,7 @@ export const PRODUCTS = {
     }
   ],
 
-  shoerack: [
-    {
-      id: "w1",
-      name:  "CaneWood Shoe Rack Cabinet",
-      
-      desc:  "Elegant wooden shoe rack cabinet featuring premium cane panel doors, compact design, and spacious storage for organized living spaces.",
-      features: [
-         "Premium Solid Wood Build",
-    "Natural Cane Front Panels",
-    "Spacious Multi-Pair Shoe Storage",
-    "Compact Space Saving Design",
-    "Durable Brass Handles",
-    "Modern Minimal Aesthetic",
-    "Ventilated Storage for Freshness"
-      ],
-      imgs: [
-       "/shoerack.png",
-       "/shoerack2.png",
-        
-      ]
-    },
-
-   
-  ],
+ 
    dressing: [
     {
       id: "d1",
@@ -786,6 +808,386 @@ export const PRODUCTS = {
       ],
       imgs: [
         "/consoletable1.jpeg",
+        
+      ]
+    },
+  ],
+
+  Diningtables:
+  [
+    {
+      id: "DT",
+      name: "Marble Luxe Dining Set",
+      desc: "Bring timeless elegance to your dining space with the Marble Luxe Dining Set. Featuring a premium marble-finish tabletop, solid wood frame, and beautifully upholstered chairs, this set combines luxury, durability, and everyday comfort for modern homes.",
+      features: [
+         "Premium marble-finish tabletop",
+  "Solid wood frame",
+  "Comfortable upholstered chairs",
+  "Elegant modern design",
+  "Strong & durable construction",
+  "Ideal for family dining",
+      ],
+      imgs: [
+        "/marbledining.png",
+        
+      ]
+    },
+
+     {
+      id: "DT2",
+      name: "Nordic Cane Dining Set",
+      desc: "Elevate your dining experience with the Nordic Cane Dining Set, crafted from premium solid wood and accented with elegant cane detailing. Its spacious tabletop, upholstered chairs, and timeless design create the perfect balance of comfort, durability, and modern sophistication for everyday dining and special gatherings.",
+      features: [
+         "Premium solid wood construction",
+  "Elegant cane detailing",
+  "Comfortable upholstered chairs",
+  "Spacious dining table",
+  "Strong & durable build",
+  "Perfect for modern interiors",
+      ],
+      imgs: [
+        "/NordicDining.png",
+        
+      ]
+    },
+    {
+      id: "DT3",
+      name:"Aura Sculpt Dining Set",
+      desc:"Transform your dining space with the Aura Sculpt Dining Set, featuring a luxurious marble-finish tabletop and an artistic sculpted solid wood pedestal base. Paired with premium upholstered chairs, it offers exceptional comfort, durability, and a timeless statement for modern interiors.",
+      features: [
+         "Premium marble-finish tabletop",
+  "Sculpted solid wood pedestal base",
+  "Comfortable upholstered chairs",
+  "Elegant contemporary design",
+  "Strong & durable construction",
+  "Perfect for luxury dining spaces",
+      ],
+      imgs: [
+        "/sculptdining.png",
+        
+      ]
+    },
+
+    {
+      id: "DT4",
+      name:"Oslo Cane Dining Set",
+      desc: "A premium oval dining set crafted from solid wood with elegant cane detailing. Designed to bring warmth, comfort, and timeless sophistication to modern dining spaces.",
+      features: [
+         "Premium solid wood construction",
+    "Handwoven natural cane base",
+    "Comfortable ergonomic dining chairs",
+    "Smooth matte finish",
+    "Ideal for 6-seater dining"
+
+      ],
+      imgs: [
+        "/canedining.png",
+        
+      ]
+    },
+    {
+  id: "DT5",
+  category: "Dining",
+  name: "Royal Cane Marble Dining Set",
+  desc: "A luxurious dining set featuring a premium marble top, handcrafted cane-back chairs, and rich wooden detailing. Designed to bring timeless elegance and exceptional comfort to modern dining spaces.",
+  features: [
+    "Premium marble tabletop",
+    "Handcrafted cane-back chairs",
+    "Solid wood frame",
+    "Comfortable cushioned seating",
+    "Seats up to 6 people"
+  ],
+  imgs: [
+   "/canemarbledining.png",
+  ]
+},
+{
+      id: "DT6",
+      name:"Classic Walnut Dining Set",
+      desc:"The Heritage Cross Dining Set combines premium solid wood craftsmanship with timeless cross-back chairs, offering exceptional durability, comfort, and elegance. Designed for both everyday dining and special occasions, it complements modern and classic interiors alike.",
+      features: [
+          "Premium solid wood construction",
+    "Classic cross-back chairs",
+    "Comfortable cushioned seating",
+    "Spacious 6-seater design",
+    "Strong & durable build",
+    "Perfect for modern homes",
+
+      ],
+      imgs: [
+        "/walnutdining.png",
+        
+      ]
+    },
+    {
+      id: "DT7",
+      name:"Verona Marble Dining Set",
+      desc: "A luxurious 8-seater dining set featuring a premium marble tabletop, elegant upholstered chairs, and a sturdy wooden base. Crafted to elevate modern dining spaces with exceptional comfort and timeless sophistication.",
+      features: [
+           "Premium marble tabletop",
+    "Comfortable upholstered chairs",
+    "Solid wood construction",
+    "Seats up to 8 people",
+    "Elegant modern design",
+    "Built for long-lasting durability",
+
+      ],
+      imgs: [
+        "/veronadining.png",
+        
+      ]
+    },
+     {
+      id: "DT8",
+      name:"Heritage Cane Dining Set",
+      desc: "Crafted from premium solid wood with elegant cane-back seating, the Heritage Cane Dining Set blends timeless craftsmanship with modern comfort. Its spacious tabletop and refined design make it perfect for everyday dining and special gatherings.",
+      features: [
+         "Premium solid wood frame",
+    "Handwoven cane backrest",
+    "Comfortable cushioned seating",
+    "Elegant contemporary design",
+    "Strong & durable construction",
+    "Perfect for 6-seater dining",
+
+      ],
+      imgs: [
+        "/impericaldining.png",
+        
+      ]
+    },
+    {
+      id: "DT9",
+      name:"Monarch Round Dining Set",
+      desc: "The Monarch Round Dining Set features a beautifully crafted solid wood tabletop with a fluted pedestal base and premium upholstered chairs. Its round design creates a warm and inviting space for family meals and conversations.",
+      features: [
+         "Premium solid wood tabletop",
+    "Fluted pedestal base",
+    "Comfortable upholstered chairs",
+    "Seats up to 4 people",
+    "Modern luxury design",
+    "Strong & durable construction",
+      ],
+      imgs: [
+        "/rounddining.png",
+        
+      ]
+    },
+    {
+      id: "DT10",
+      name:"Regal Boardroom Table Set",
+      desc:"The Regal Boardroom Table Set is crafted for luxury conference rooms and grand dining spaces. Featuring a premium solid wood tabletop with a sculptural pedestal base and ergonomically upholstered armchairs, it delivers exceptional comfort, durability, and timeless elegance for professional meetings and formal gatherings.",
+      features: [
+         "Premium solid wood tabletop",
+    "Comfortable upholstered armchairs",
+    "Sculptural pedestal base",
+    "Seats up to 18–20 people",
+    "Executive luxury design",
+    "Built for long-lasting durability",
+      ],
+      imgs: [
+        "/boardroomdining.png",
+        
+      ]
+    },
+    {
+      id: "DT11",
+      name:"Kyoto Wooden Dining Set",
+      desc:"The Nordic Loop Dining Set features a premium solid wood tabletop paired with elegantly curved wooden chairs. Inspired by Scandinavian design, it offers exceptional comfort, durability, and timeless style, making it perfect for modern homes and everyday dining.",
+      features: [
+         "Premium solid wood construction",
+    "Comfortable curved armchairs",
+    "Seats up to 6 people",
+    "Scandinavian modern design",
+    "Strong & durable build",
+    "Smooth natural wood finish",
+      ],
+      imgs: [
+        "/dining.png",
+        
+      ]
+    },
+    {
+      id: "DT12",
+      name:"Regency Round Dining Set",
+      desc:"The Regency Round Dining Set combines a beautifully crafted round solid wood table with luxurious upholstered chairs for an elegant dining experience. Its timeless design, sturdy pedestal base, and comfortable seating make it perfect for intimate family meals and sophisticated interiors.",
+
+      features: [
+          "Premium solid wood table",
+    "Comfortable upholstered chairs",
+    "Elegant pedestal base",
+    "Seats up to 4 people",
+    "Classic luxury design",
+    "Strong & durable build",
+      ],
+      imgs: [
+        "/circulardining.png",
+        
+      ]
+    },
+    {
+      id: "DT13",
+      name:"Imperial Marble Dining Set",
+      desc:"The Imperial Marble Dining Set showcases a luxurious marble-finish tabletop supported by sculptural wooden pedestal bases. Designed for modern luxury interiors, it offers exceptional durability, elegant craftsmanship, and spacious seating for memorable dining experiences.",
+
+      features: [
+          "Premium marble-finish tabletop",
+    "Sculptural wooden pedestal base",
+    "Seats up to 8 people",
+    "Modern luxury design",
+    "Strong & durable construction",
+    "Easy to clean surface",
+      ],
+      imgs: [
+        "/impericalmarble.png",
+        
+      ]
+    },
+    {
+      id: "DT14",
+      name: "Canewood Dining Table",
+     
+      desc: "Elegant handcrafted solid wood dining set with premium cane woven detailing, designed to bring luxury and comfort to modern dining spaces.",
+      features: [
+        "Solid wood handcrafted frame",
+    "Natural cane woven detailing",
+    "6-seater spacious design",
+    "Premium polished finish",
+    "Durable long-lasting build",
+    "Comfortable ergonomic seating",
+    "Luxury traditional design"
+      ],
+      imgs: [
+        "/hero.jpeg",
+        "/dining1.jpeg",
+        "/dining2.jpeg",
+        "/dining3.jpeg",
+      ]
+    },
+
+    
+    
+  ],
+  Designer:
+  [
+    {
+      id: "DW1",
+      name: "Aurora Luxe Bedroom Collection",
+      desc:"The Aurora Luxe Bedroom Collection is a premium combination of elegant bedside tables, a designer coffee table, and a luxurious sideboard, crafted to elevate modern living spaces. Featuring marble-finish tops, smooth curved edges, fluted detailing, soft gold accents, and spacious storage, this collection blends timeless luxury with everyday functionality. Perfect for contemporary bedrooms and premium interiors.",
+      features: [
+        "Complete luxury bedroom furniture collection",
+    "Premium marble-finish tabletops",
+    "Designer sideboard with spacious storage",
+    "Elegant bedside tables with multiple drawers",
+    "Modern coffee table with curved silhouette",
+    "Soft rounded edges for enhanced safety",
+    "Gold accent detailing for a premium look",
+    "Durable engineered wood construction",
+    "Scratch & moisture resistant finish",
+    "Contemporary luxury design",
+    "Easy to clean and maintain",
+    "Perfect for modern homes and luxury interiors"
+      ],
+      imgs: [
+        "/bedroom2.jpeg",
+        "/bedroom3.jpeg",
+        "/bedroom4.jpeg",
+        "/bedroom5.jpeg",
+        "/bedroom6.jpeg",
+        "/bedroom7.jpeg",
+        
+        
+      ]
+    },
+    {
+      id: "DW2",
+      name: "Little Scholar Kids Chair",
+      desc: "The Little Scholar Kids Chair is a beautifully crafted wooden activity chair designed for children. Featuring a sturdy solid wood frame, comfortable seating, integrated writing and study desk, and child-safe rounded edges, it is ideal for studying, drawing, reading, eating, and creative activities. Its timeless design blends perfectly with modern homes while providing durability and comfort for everyday use.",
+      features: [
+        "Suitable for toddlers and young children",,
+    "Integrated study & activity desk",
+    "Ergonomic backrest for better posture",
+    "Smooth rounded child-safe edges",
+    "Strong & stable frame",
+    "Comfortable armrests",
+    "Spacious removable feeding tray",
+    "Easy to clean and maintain",
+    "Ideal for study, reading & drawing",
+    
+      ],
+      imgs: [
+        "/kidschair.jpeg",
+        
+        
+        
+      ]
+    },
+     {
+      id: "DW3",
+      name: "Heritage Cane Serving Trolley",
+      desc:  "The Heritage Cane Serving Trolley is a beautifully handcrafted serving companion designed to bring elegance and convenience to your home. Crafted from premium solid wood with handwoven cane shelves, this three-tier trolley offers ample space for serving tea, coffee, snacks, desserts, and dining essentials. Featuring integrated bottle and utensil holders, it combines timeless craftsmanship with everyday functionality, making it a perfect addition to dining rooms, kitchens, and living spaces.",
+      features: [
+         "Premium solid wood construction",
+    "Elegant handwoven natural cane shelves",
+    "Three-tier spacious serving shelves",
+    "Integrated bottle & utensil holders",
+    "Smooth rounded edges",
+    "Strong & durable frame",
+    "Ideal for serving tea, coffee, snacks & desserts",
+    "Perfect for dining rooms, kitchens & living spaces",
+    
+    
+      ],
+      imgs: [
+        "/trolley.jpeg",
+        "/trolley2.jpeg",
+        
+        
+        
+      ]
+    },
+    {
+      id: "DW4",
+      name:  "CaneWood Shoe Rack Cabinet",
+      
+      desc:  "Elegant wooden shoe rack cabinet featuring premium cane panel doors, compact design, and spacious storage for organized living spaces.",
+      features: [
+         "Premium Solid Wood Build",
+    "Natural Cane Front Panels",
+    "Spacious Multi-Pair Shoe Storage",
+    "Compact Space Saving Design",
+    "Durable Brass Handles",
+    "Modern Minimal Aesthetic",
+    "Ventilated Storage for Freshness"
+      ],
+      imgs: [
+       "/shoerack.png",
+       "/shoerack2.png",
+        
+      ]
+    },
+
+  ],
+  Dalipcane:
+  [
+    {
+      id: "DC1",
+      name: "Cane Center Table",
+      desc:"The Heritage Cane Center Table is a timeless masterpiece that blends traditional craftsmanship with modern elegance. Expertly crafted from premium solid wood, it features an intricately handwoven natural cane tabletop, beautifully carved detailing, and graceful cabriole legs. Designed to be the centerpiece of your living room, it offers exceptional durability while adding warmth, sophistication, and classic charm to any interior.",
+      features: [
+       "Premium solid wood",
+    "Handwoven cane tabletop",
+    "Elegant carved detailing",
+    "Round classic design",
+    "Strong & durable build",
+    "Scratch-resistant finish",
+    "Easy to maintain",
+    "Ideal for living rooms",
+      ],
+      imgs: [
+        "/canecentertable.jpeg",
+        "/dalip_cane.jpeg"
+        
+        
         
       ]
     },
